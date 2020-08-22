@@ -4,17 +4,16 @@
 *.pyc
 *.swp
 .DS_Store
-.atom/
-.buildlog/
+Frontend/usta/.atom/
+Frontend/usta/.buildlog/
 .history
-.svn/
+Frontend/usta/.svn/
 
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
-Frontend/usta/build/
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -29,13 +28,16 @@ Frontend/usta/.flutter-plugins-dependencies
 Frontend/usta/.packages
 Frontend/usta/.pub-cache/
 Frontend/usta/.pub/
+Frontend/usta/.idea/
+Frontend/usta/build/
+
 
 
 # Web related
-lib/generated_plugin_registrant.dart
+Frontend/usta/lib/generated_plugin_registrant.dart
 
 # Symbolication related
-app.*.symbols
+Frontend/usta/app.*.symbols
 
 # Obfuscation related
 app.*.map.json
