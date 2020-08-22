@@ -1,0 +1,44 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+Frontend/usta/build/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+Frontend/usta/.dart_tool/
+Frontend/usta/.flutter-plugins
+Frontend/usta/.flutter-plugins-dependencies
+Frontend/usta/.packages
+Frontend/usta/.pub-cache/
+Frontend/usta/.pub/
+
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Exceptions to above rules.
+".gitignore" 44L, 713C
