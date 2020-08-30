@@ -17,8 +17,21 @@ class InstructorTile extends StatelessWidget {
       margin: const EdgeInsets.all(5.0),
       padding: const EdgeInsets.all(5.0),
       decoration: BoxDecoration(
+        borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(10),
+            topRight: Radius.circular(10),
+            bottomLeft: Radius.circular(10),
+            bottomRight: Radius.circular(10)),
+        boxShadow: [
+          BoxShadow(
+            color: Color(0XFFE0C9D5),
+            spreadRadius: 1,
+            blurRadius: 2,
+            offset: Offset(0, 3),
+          )
+        ],
         border: Border.all(),
-        color:  Color(0xFFDDB644),
+        color: Color(0xFFDDB644),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -32,16 +45,13 @@ class InstructorTile extends StatelessWidget {
               ),
               Container(
                 child: RatingBar(
-
                   initialRating: _instructor.rating.toDouble(),
                   minRating: 1,
                   direction: Axis.horizontal,
                   allowHalfRating: true,
                   itemCount: 5,
                   itemSize: 20,
-                  itemPadding:EdgeInsets.all(
-                      1.0
-                  ),
+                  itemPadding: EdgeInsets.all(1.0),
                   itemBuilder: (context, _) => Icon(
                     Icons.star,
                     color: Color(0xFFAC1767),
@@ -50,23 +60,24 @@ class InstructorTile extends StatelessWidget {
               ),
             ],
           ),
-
           SizedBox(
             width: 20,
             height: 10,
           ),
           Column(
-            crossAxisAlignment: CrossAxisAlignment.end,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Text(
                 _instructor.instructorName.toString(),
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               SizedBox(
-                width: 5,
-                height: 5,
+                width: 10,
+                height: 10,
               ),
-              Text(_instructor.hourPrice.toString()),
+              Text(
+                _instructor.hourPrice.toString(),
+              ),
             ],
           ),
         ],

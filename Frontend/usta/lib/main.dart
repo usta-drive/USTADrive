@@ -22,7 +22,7 @@ class USTAApp extends StatelessWidget {
       ],
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          theme: ThemeData.dark().copyWith(
+          theme: ThemeData.light().copyWith(
             textTheme: TextTheme(
               body1: TextStyle(color: Colors.black),
             ),

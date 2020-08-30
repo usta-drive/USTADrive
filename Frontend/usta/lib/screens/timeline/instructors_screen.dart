@@ -13,6 +13,7 @@ class _InstructorsScreenState extends State<InstructorsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.white,
         title: TextField(
           decoration: InputDecoration(
               border: InputBorder.none,
