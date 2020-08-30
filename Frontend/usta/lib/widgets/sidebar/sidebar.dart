@@ -70,7 +70,7 @@ class _SideBarState extends State<SideBar> with TickerProviderStateMixin {
               Expanded(
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 20),
-                  color: Color(0xFFB7864D),
+                  color: Color(0xFFAC1767),
                   child: Column(
                     children: <Widget>[
                       SizedBox(
@@ -78,7 +78,7 @@ class _SideBarState extends State<SideBar> with TickerProviderStateMixin {
                       ),
                       CircleAvatar(
                         backgroundColor: Colors.white,
-                        child: Text('AH'),
+                        child: Text('Test'),
                       ),
                       Divider(
                         height: 64,
@@ -93,7 +93,7 @@ class _SideBarState extends State<SideBar> with TickerProviderStateMixin {
                         onTap: () {
                           onIconPressed();
                           BlocProvider.of<NavigationBloc>(context)
-                              .add(NavigationEvents.HomePageClickEvent);
+                              .add(NavigationEvents.TimelineClickEvent);
                         },
                       ),
                       MenuItem(
@@ -157,7 +157,7 @@ class _SideBarState extends State<SideBar> with TickerProviderStateMixin {
                     clipper: CustomerMenuClipper(),
                     child: Container(
                       width: 35,
-                      color: Color(0xFFDDB64F),
+                      color: Color(0xFFAC1767),
                       height: 110,
                       alignment: Alignment.centerLeft,
                       child: AnimatedIcon(
