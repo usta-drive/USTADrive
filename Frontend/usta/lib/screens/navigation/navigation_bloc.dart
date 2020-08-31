@@ -1,12 +1,14 @@
 import 'package:bloc/bloc.dart';
 import 'package:usta/screens/pages/homepage.dart';
 import 'package:usta/screens/pages/myaccount.dart';
+import 'package:usta/screens/timeline/instructors_screen.dart';
 
 
 enum NavigationEvents {
 
   HomePageClickEvent,
   MyAccountClickEvent,
+  TimelineClickEvent,
 }
 
 abstract class NavigationStates {
@@ -25,6 +27,8 @@ class NavigationBloc extends Bloc<NavigationEvents,NavigationStates>{
       case NavigationEvents.HomePageClickEvent: yield HomePage();
       break;
       case NavigationEvents.MyAccountClickEvent: yield MyAccount();
+      break;
+      case NavigationEvents.TimelineClickEvent: yield InstructorsScreen();
       break;
 
     };

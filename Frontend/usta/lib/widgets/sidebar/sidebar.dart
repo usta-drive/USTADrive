@@ -70,7 +70,7 @@ class _SideBarState extends State<SideBar> with TickerProviderStateMixin {
               Expanded(
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 20),
-                  color: Color(0xFFB7864D),
+                  color: Color(0xFFAC1767),
                   child: Column(
                     children: <Widget>[
                       SizedBox(
@@ -78,7 +78,7 @@ class _SideBarState extends State<SideBar> with TickerProviderStateMixin {
                       ),
                       CircleAvatar(
                         backgroundColor: Colors.white,
-                        child: Text('AH'),
+                        child: Text('Test'),
                       ),
                       Divider(
                         height: 64,
@@ -93,7 +93,7 @@ class _SideBarState extends State<SideBar> with TickerProviderStateMixin {
                         onTap: () {
                           onIconPressed();
                           BlocProvider.of<NavigationBloc>(context)
-                              .add(NavigationEvents.HomePageClickEvent);
+                              .add(NavigationEvents.TimelineClickEvent);
                         },
                       ),
                       MenuItem(
@@ -157,8 +157,8 @@ class _SideBarState extends State<SideBar> with TickerProviderStateMixin {
                     clipper: CustomerMenuClipper(),
                     child: Container(
                       width: 35,
-                      color: Color(0xFFDDB64F),
-                      height: 110,
+                      color: Color(0xFFAC1767),
+                      height: 90,
                       alignment: Alignment.centerLeft,
                       child: AnimatedIcon(
                         icon: AnimatedIcons.menu_close,
@@ -190,9 +190,9 @@ class CustomerMenuClipper extends CustomClipper<Path> {
     Path path = Path();
     path.moveTo(0, 0);
     path.quadraticBezierTo(0, 8, 10, 16);
-    path.quadraticBezierTo(width - 1, height / 2 - 20, width, height / 2);
-    path.quadraticBezierTo(width + 1, height / 2 + 20, 10, height - 16);
-    path.quadraticBezierTo(0, height - 8, 0, height);
+    path.quadraticBezierTo(width-1, height/2-20, width, height/2);
+    path.quadraticBezierTo(width+1, height/2+20, 10, height-16);
+    path.quadraticBezierTo(0, height-8, 0, height);
     path.close();
 
     return path;

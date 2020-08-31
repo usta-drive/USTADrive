@@ -2,253 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83b13150-0aff-42e0-a78e-37872e5c63c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/.filecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/App" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/app.dill" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/debug_ios_bundle_flutter_assets.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/debug_universal_framework.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/flutter_assets.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/iphone_framework" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/kernel_snapshot.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/kernel_snapshot.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/flutter_build/2780e9cd53eb94a9edd965a7739b3f46/simulator_framework" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.dart_tool/package_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.idea/usta.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/.packages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/main/kotlin/com/example/usta/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/android/usta_android.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/assets/fonts/Entypo.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/assets/fonts/Feather.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/assets/fonts/FontAwesome.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/assets/fonts/MaterialIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/assets/icons/payment/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/assets/icons/payment/stripe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppFrameworkInfo.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon20x20~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon29x29~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon40x40~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon60x60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon76x76@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon76x76~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/AppIcon83.5x83.5@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/FontManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/Entypo.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/Feather.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/FontAwesome.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/MaterialIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/icons/payment/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/icons/payment/stripe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/isolate_snapshot_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/vm_snapshot_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/icudtl.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftCore.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftCoreFoundation.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftCoreGraphics.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftDarwin.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftDispatch.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftFoundation.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/libswiftObjectiveC.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/PkgInfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64-apple-ios-simulator.swiftdoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64-apple-ios-simulator.swiftmodule" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64.swiftdoc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64.swiftmodule" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Runner.build/Release-iphoneos/Runner.build/dgph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppFrameworkInfo.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon20x20@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon20x20~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon29x29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon29x29@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon29x29~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon40x40@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon40x40~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon60x60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon76x76@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon76x76~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/AppIcon83.5x83.5@2x~ipad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Assets.car" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/FontManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/Entypo.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/Feather.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/FontAwesome.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/fonts/MaterialIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/icons/payment/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/assets/icons/payment/stripe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/isolate_snapshot_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/vm_snapshot_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/_CodeSignature/CodeResources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/icudtl.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/libswiftCore.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/libswiftCoreFoundation.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/libswiftCoreGraphics.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/libswiftDarwin.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/libswiftDispatch.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/libswiftFoundation.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/libswiftObjectiveC.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/PkgInfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/build/last_build_run.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/home/home.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/AppDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/common/constants/colors.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/common/constants/constants.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/main.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/models/users.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/screens/login/login.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/screens/navigation/navigation_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/screens/pages/homepage.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/screens/pages/myaccount.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/screens/register/register.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/services/api_helper.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/widgets/sidebar/menu_item.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/widgets/sidebar/sidebar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/lib/widgets/sidebar/sidebar_layout.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/pubspec.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/pubspec.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/test/widget_test.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Frontend/usta/usta.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitigonre" beforeDir="false" afterPath="$PROJECT_DIR$/.gitigonre" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/USTADrive.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64-apple-ios-simulator.swiftmodule" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64-apple-ios-simulator.swiftmodule" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64.swiftmodule" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Debug-iphonesimulator/Runner.swiftmodule/x86_64.swiftmodule" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/Runner.build/Release-iphoneos/Runner.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/Runner.build/Release-iphoneos/Runner.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Assets.car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/usta/lib/widgets/sidebar/sidebar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/usta/lib/widgets/sidebar/sidebar.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -257,17 +46,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitigonre">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -281,9 +60,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1464" />
-    <option name="y" value="-124" />
+    <option name="y" value="-104" />
     <option name="width" value="1473" />
-    <option name="height" value="1057" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -307,6 +86,20 @@
               <item name="USTADrive" type="462c0819:PsiDirectoryNode" />
               <item name="Frontend" type="462c0819:PsiDirectoryNode" />
               <item name="usta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="USTADrive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="USTADrive" type="462c0819:PsiDirectoryNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="usta" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="USTADrive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="USTADrive" type="462c0819:PsiDirectoryNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="usta" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -348,11 +141,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1464" y="-124" width="1473" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="1464" y="-104" width="1473" height="1008" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33403215" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33876443" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -365,7 +157,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32870865" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Flutter Inspector" order="2" />
@@ -386,7 +178,7 @@
     <entry file="file://$PROJECT_DIR$/.gitigonre">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
