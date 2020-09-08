@@ -4,6 +4,7 @@ import 'package:usta/widgets/sidebar/sidebar_layout.dart';
 import 'package:usta/screens/timeline/instructors_screen.dart';
 import 'package:usta/providers/instructor.dart';
 import 'package:usta/providers/instructors_provider.dart';
+import 'package:usta/screens/login/login_screen.dart';
 
 void main() =>  runApp(USTAApp());
 
@@ -27,8 +28,9 @@ class USTAApp extends StatelessWidget {
               body1: TextStyle(color: Colors.black),
             ),
           ),
-          initialRoute: 'sidebar_menu',
+          initialRoute: 'login_screen',
           routes: {
+            'login_screen': (context) => LoginScreen(),
             'sidebar_menu': (context) => SideBarLayout(),
             'timeline': (context) => InstructorsScreen(),
 
