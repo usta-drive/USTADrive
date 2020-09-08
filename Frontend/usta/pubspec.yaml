@@ -34,6 +34,15 @@ dependencies:
   provider: ^4.0.0
   intl: ^0.15.8
   flutter_rating_bar: ^3.0.1+1
+  flutter_google_places: ^0.2.4
+  google_maps_webservice: ^0.0.16
+  geocoder: ^0.2.1
+  material_design_icons_flutter: ^4.0.5
+  international_phone_input: ^1.0.4
+  intl_phone_number_input: ^0.5.0
+
+
+
 
 dev_dependencies:
   flutter_test:
@@ -52,6 +61,9 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/payment/
+    - assets/flags/
+
+
   fonts:
     - family: MaterialIcons
       fonts:
