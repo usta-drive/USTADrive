@@ -1,16 +1,18 @@
 package com.entrepreneurs.usta.Controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.entrepreneurs.usta.Model.AppUser;
 import com.entrepreneurs.usta.Repositories.AppUserRepository;
+
 
 @RestController
 @RequestMapping("/api")
@@ -38,7 +40,11 @@ public class AppUserController {
 		appuserRepo.save(appUser);
 		return appuserRepo.findById(appUser.getId()).get();
 	}
-
+	@PutMapping("/users/{id}")
+	public ResponseEntity<AppUser> updateUser(@RequestBody AppUser user) {
+		appuserRepo.save(user);
+		return ResponseEntity.ok(user);
+	}
 	@DeleteMapping("users/{id}")
 	public void deleteAppUser(@PathVariable Long id) {
 		appuserRepo.deleteById(id);

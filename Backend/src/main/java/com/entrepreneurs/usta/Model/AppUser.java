@@ -27,7 +27,7 @@ public class AppUser {
 	private String userType;
 	private String userRole;
 	private String securityQuestion;
-	private boolean flag;
+	private boolean flag=true;
 
 	public AppUser() {}
 	
@@ -55,9 +55,7 @@ public class AppUser {
 		this.userType = userType;
 		this.userRole = userRole;
 		this.securityQuestion = securityQuestion;
-		this.flag=false;
-
-	}
+			}
 
 
 	public Long getId() {
