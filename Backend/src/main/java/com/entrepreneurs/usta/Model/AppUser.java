@@ -13,7 +13,7 @@ public class AppUser {
 	private String firstName;
 	private String lastName;
 	private String usrPassword;
-	private Long phone;
+	private int phone;
 	private String email;
 	private String gender;
 	private Integer age;
@@ -22,19 +22,19 @@ public class AppUser {
 	private String address2;
 	private String cityName;
 	private String stateName;
-	private String zipCode;
+	private int zipCode;
 	private String attributeName;
 	private String userType;
 	private String userRole;
 	private String securityQuestion;
-	private boolean flag=false;
+	private boolean flag;
 
 	public AppUser() {}
 	
 
-	public AppUser(String userName, String firstName, String lastName, String usrPassword, Long phone, String email,
-			String gender, Integer age, String userPhoto, String address1, String address2, String cityName,
-			String stateName, String zipCode, String attributeName, String userType, String userRole,
+	public AppUser(String userName, String firstName, String lastName, String usrPassword, int phone, String email,
+			String gender, int age, String userPhoto, String address1, String address2, String cityName,
+			String stateName, int zipCode, String attributeName, String userType, String userRole,
 			String securityQuestion) {
 		super();
 		this.userName = userName;
@@ -55,6 +55,7 @@ public class AppUser {
 		this.userType = userType;
 		this.userRole = userRole;
 		this.securityQuestion = securityQuestion;
+		this.flag=false;
 
 	}
 
@@ -95,11 +96,11 @@ public class AppUser {
 		this.usrPassword = usrPassword;
 	}
 
-	public Long getPhone() {
+	public int getPhone() {
 		return phone;
 	}
 
-	public void setPhone(Long phone) {
+	public void setPhone(int phone) {
 		this.phone = phone;
 	}
 
@@ -119,11 +120,11 @@ public class AppUser {
 		this.gender = gender;
 	}
 
-	public Integer getAge() {
+	public int getAge() {
 		return age;
 	}
 
-	public void setAge(Integer age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 
@@ -167,11 +168,11 @@ public class AppUser {
 		this.stateName = stateName;
 	}
 
-	public String getZipCode() {
+	public int getZipCode() {
 		return zipCode;
 	}
 
-	public void setZipCode(String zipCode) {
+	public void setZipCode(int zipCode) {
 		this.zipCode = zipCode;
 	}
 
