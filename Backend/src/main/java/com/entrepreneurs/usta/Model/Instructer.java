@@ -1,8 +1,5 @@
 package com.entrepreneurs.usta.Model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import javax.persistence.Entity;
 
 
@@ -12,7 +9,7 @@ public class Instructer extends AppUser {
 	private String instBio;
 	private String intTrainingLicense;
 	private String intDrivingLicense;
-	private List<String> instLangs;
+	private String instLangs;
 	private String bankName;
 	private Integer bankAccNo;
 	private Integer bankRoutingNo;
@@ -49,10 +46,10 @@ public class Instructer extends AppUser {
 			this.instBio = null;
 			this.intTrainingLicense = null;
 			this.intDrivingLicense = null;
-			this.instLangs = new ArrayList<>();
 			this.bankName = null;
 			this.bankAccNo = null;
 			this.bankRoutingNo = null;
+			this.instLangs ="Arabic";
 			this.paypalAcc = null;
 			this.wallTotalAmount = null;
 			this.wallColdAmount = null;
@@ -115,15 +112,13 @@ public class Instructer extends AppUser {
 
 
 
-	public List<String> getInstLangs() {
+	public String getInstLangs() {
 		return instLangs;
 	}
 
 
 
-
-
-	public void setInstLangs(List<String> instLangs) {
+	public void setInstLangs(String instLangs) {
 		this.instLangs = instLangs;
 	}
 
