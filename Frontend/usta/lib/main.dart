@@ -28,11 +28,14 @@ class USTAApp extends StatelessWidget {
               body1: TextStyle(color: Colors.black),
             ),
           ),
+
           initialRoute: 'login_screen',
+
           routes: {
             'login_screen': (context) => LoginScreen(),
             'sidebar_menu': (context) => SideBarLayout(),
             'timeline': (context) => InstructorsScreen(),
+            'registration_screen': (context) => UstaRegistration_screen(),
 
           },
         ),
