@@ -1,6 +1,7 @@
 package com.entrepreneurs.usta.Repositories;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.http.ResponseEntity;
 
 import com.entrepreneurs.usta.Model.AppUser;
 

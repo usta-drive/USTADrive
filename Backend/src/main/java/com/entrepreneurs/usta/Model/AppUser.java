@@ -16,7 +16,7 @@ public class AppUser {
 	private int phone;
 	private String email;
 	private String gender;
-	private Integer age;
+	private int age;
 	private String userPhoto;
 	private String address1;
 	private String address2;
