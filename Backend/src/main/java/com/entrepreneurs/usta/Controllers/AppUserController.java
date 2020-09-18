@@ -1,10 +1,9 @@
 package com.entrepreneurs.usta.Controllers;
 
-import java.io.IOException;
 import java.sql.SQLException;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,6 +24,7 @@ public class AppUserController {
 
 	@Autowired
 	AppUserRepository appuserRepo;
+	USTACustomError customerError;
 
 	@GetMapping("/users")
 	public Iterable<AppUser> getListOfUsers() {
@@ -37,16 +37,14 @@ public class AppUserController {
 	}
 
 	@GetMapping("/login/{emailAddress}/{password}")
-	public AppUser VerifyUserInfoByEmailandPassword(@PathVariable String emailAddress, @PathVariable String password) throws Exception{
+	public ResponseEntity<Object> VerifyUserInfoByEmailandPassword(@PathVariable String emailAddress,
+			@PathVariable String password) {
 		AppUser userFound = appuserRepo.findByEmail(emailAddress.toLowerCase());
 		String str = userFound.getUsrPassword();
 		if (!userFound.getEmail().equalsIgnoreCase(emailAddress) || (!password.equals(str))) {
-			throw new Exception();
-//			USTACustomError customerError=new USTACustomError("Error 200");
-//			USTACustomError customerError1=new USTACustomError("Error 55");
-		} else {
-			return userFound;
+			return new ResponseEntity<>("Ivalid username/password", HttpStatus.UNAUTHORIZED);
 		}
+		return new ResponseEntity<>(userFound, HttpStatus.OK);
 	}
 
 	@PostMapping("/users")

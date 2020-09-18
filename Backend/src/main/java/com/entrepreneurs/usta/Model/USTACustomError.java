@@ -1,9 +1,18 @@
 package com.entrepreneurs.usta.Model;
 
 public class USTACustomError {
-  public USTACustomError(String string) {
-		// TODO Auto-generated constructor stub
+	String ErrorCode;
+	  String ErrorDescription;
+  public USTACustomError(String str1, String str2) {
+		this.ErrorCode=str1;
+		this.ErrorDescription=str2;
 	}
-String ErrorCode;
-  String ErrorDescription;
+
+  
+	  public void invalidLogin(String x, String y) {
+		this.ErrorCode=x;
+		this.ErrorDescription=y; 
+	
+  }
+                  
 }

@@ -16,8 +16,8 @@ public class InstOffering {
 	private Long id;
 	@ManyToOne
 	private Instructer instructer;
-	@OneToOne
-	private Course course;
+//	@OneToOne
+//	private Course course;
 	private Time durationTime;
 	private double price;
 	private double discount;
@@ -26,10 +26,10 @@ public class InstOffering {
 		
 	}
 	
-	public InstOffering(Instructer instructer, Course course, Time durationTime, double price, double discount) {
+	public InstOffering(Instructer instructer, Time durationTime, double price, double discount) {
 		super();
 		this.instructer = instructer;
-		this.course = course;
+//		this.course = course;
 		this.durationTime = durationTime;
 		this.price = price;
 		this.discount = discount;
@@ -45,12 +45,12 @@ public class InstOffering {
 	public void setInstructer(Instructer instructer) {
 		this.instructer = instructer;
 	}
-	public Course getCourse() {
-		return course;
-	}
-	public void setCourse(Course course) {
-		this.course = course;
-	}
+//	public Course getCourse() {
+//		return course;
+//	}
+//	public void setCourse(Course course) {
+//		this.course = course;
+//	}
 	public Time getDurationTime() {
 		return durationTime;
 	}
