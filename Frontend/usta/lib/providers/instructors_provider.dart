@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import './instructor.dart';
+import 'package:usta/models/instructor/instructor.dart';
 
 class Instructors with ChangeNotifier {
   List<Instructor> _instructors = [

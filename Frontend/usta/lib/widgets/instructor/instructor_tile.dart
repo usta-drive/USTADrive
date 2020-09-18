@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:usta/providers/instructor.dart';
+import 'package:usta/models/instructor/instructor.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class InstructorTile extends StatelessWidget {

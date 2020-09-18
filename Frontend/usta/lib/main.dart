@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:usta/widgets/sidebar/sidebar_layout.dart';
-import 'package:usta/screens/timeline/instructors_screen.dart';
-import 'package:usta/providers/instructor.dart';
+import 'package:usta/screens/instructors/instructors_screen.dart';
+import 'package:usta/models/instructor/instructor.dart';
 import 'package:usta/providers/instructors_provider.dart';
 import 'package:usta/screens/login/login_screen.dart';
+import 'package:usta/screens/regitstration/registration_screen.dart';
+import 'screens/instructors/instructor_profile_screen.dart';
+import 'providers/instructor_profile_provider.dart';
 
 void main() =>  runApp(USTAApp());
 
@@ -18,7 +21,7 @@ class USTAApp extends StatelessWidget {
           create: (context) => Instructors(),
         ),
         ChangeNotifierProvider(
-          create: (context) => Instructor(),
+          create: (context) => InstructorProfileProvider(),
         ),
       ],
         child: MaterialApp(
@@ -36,6 +39,8 @@ class USTAApp extends StatelessWidget {
             'sidebar_menu': (context) => SideBarLayout(),
             'timeline': (context) => InstructorsScreen(),
             'registration_screen': (context) => UstaRegistration_screen(),
+            'instructors_screen': (context) => InstructorsScreen(),
+            "InstructorProfileScreen": (context) => InstructorProfileScreen(),
 
           },
         ),
