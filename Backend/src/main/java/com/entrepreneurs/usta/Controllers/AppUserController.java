@@ -40,6 +40,9 @@ public class AppUserController {
 	public ResponseEntity<Object> VerifyUserInfoByEmailandPassword(@PathVariable String emailAddress,
 			@PathVariable String password) {
 		AppUser userFound = appuserRepo.findByEmail(emailAddress.toLowerCase());
+		if (userFound==null) {
+			return new ResponseEntity<>("Invalid email address", HttpStatus.UNAUTHORIZED);
+				}
 		String str = userFound.getUsrPassword();
 		if (!userFound.getEmail().equalsIgnoreCase(emailAddress) || (!password.equals(str))) {
 			return new ResponseEntity<>("Ivalid username/password", HttpStatus.UNAUTHORIZED);
