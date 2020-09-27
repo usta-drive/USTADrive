@@ -8,6 +8,7 @@ import 'package:usta/screens/login/login_screen.dart';
 import 'package:usta/screens/regitstration/registration_screen.dart';
 import 'screens/instructors/instructor_profile_screen.dart';
 import 'providers/instructor_profile_provider.dart';
+import 'package:usta/providers/login_provider.dart';
 
 void main() =>  runApp(USTAApp());
 
@@ -22,6 +23,9 @@ class USTAApp extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: (context) => InstructorProfileProvider(),
+        ),
+        ChangeNotifierProvider(
+          create: (context) => Authentication(),
         ),
       ],
         child: MaterialApp(

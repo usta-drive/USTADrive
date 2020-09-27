@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:usta/providers/login_provider.dart';
 import 'package:usta/models/users.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -7,12 +9,19 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  String _UserName;
-  String _Password;
-  Users _auth = Users();
+  String _UserName = '';
+  String _Password = '';
+
   var _UserNameController = TextEditingController();
   var _PasswordController = TextEditingController();
+  var _isLoading = true;
 
+  @override
+  void didChangeDependencies() {
+    // TODO: implement didChangeDependencies
+
+    super.didChangeDependencies();
+  }
 
   @override
   void dispose() {
@@ -20,8 +29,12 @@ class _LoginScreenState extends State<LoginScreen> {
     _PasswordController.dispose();
     super.dispose();
   }
+
   @override
   Widget build(BuildContext context) {
+    bool _isAuthenicated;
+    final authenticationProvider= Provider.of<Authentication>(context);
+
     return Scaffold(
       backgroundColor: Colors.white,
       body: Builder(
@@ -42,7 +55,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 controller: _UserNameController,
                 onChanged: (value) {
                   _UserNameController.text = value;
-                  _UserName=_UserNameController.text;
+                  _UserName = _UserNameController.text;
                 },
                 style: TextStyle(color: Colors.black),
                 decoration: InputDecoration(
@@ -72,7 +85,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 obscureText: true,
                 onChanged: (value) {
                   _PasswordController.text = value;
-                  _Password=_PasswordController.text;
+                  _Password = _PasswordController.text;
                 },
                 style: TextStyle(color: Colors.black),
                 decoration: InputDecoration(
@@ -104,16 +117,40 @@ class _LoginScreenState extends State<LoginScreen> {
                 color: Color(0xFFDDB64F),
                 clipBehavior: Clip.antiAlias,
                 child: MaterialButton(
-                  onPressed: () {
-                    print('user $_UserName');
-                    print('password $_Password');
-                    _auth.userName = _UserName;
-                    _auth.password = _Password;
-                    if (_auth.isAuthenticated()) {
-                      //Go to next screen
-                      print('Login Sucessed');
-                      Navigator.pushNamed(context, 'sidebar_menu');
-                    } else {
+                  onPressed: () async {
+                    print(
+                        'login_screen.dart#MaterialButton#onPressed: _UserName : $_UserName');
+                    print(
+                        'login_screen.dart#MaterialButton#onPressed: _Password : $_Password');
+                    if (_UserName.isNotEmpty && _Password.isNotEmpty) {
+
+                      try{
+                        await authenticationProvider.callLoginAPI(_UserName, _Password);
+                        _isAuthenicated=authenticationProvider.isAuthenticated(_UserName, _Password);
+                      }catch (error) {
+                        final snackBar = SnackBar(
+                          content: Text('Sorry , Error $error '),
+                          action: SnackBarAction(
+                            label: 'OK',
+                            onPressed: () {
+                              _PasswordController.text = '';
+                              _UserNameController.text = '';
+                            },
+                          ),
+                        );
+                        Scaffold.of(context).showSnackBar(snackBar);
+
+                      }
+
+
+
+                    }
+                    print('login_screen.dart#MaterialButton#onPressed: _isAuthenicated $_isAuthenicated' );
+
+                    if(_isAuthenicated){
+
+
+                    }else{
                       //show alert
                       print('Login Failed');
                       final snackBar = SnackBar(
@@ -121,13 +158,16 @@ class _LoginScreenState extends State<LoginScreen> {
                         action: SnackBarAction(
                           label: 'OK',
                           onPressed: () {
-                            _PasswordController.text='';
-                            _UserNameController.text='';
+                            _PasswordController.text = '';
+                            _UserNameController.text = '';
                           },
                         ),
                       );
                       Scaffold.of(context).showSnackBar(snackBar);
+
                     }
+
+
                   },
                   minWidth: 200.0,
                   height: 42.0,
